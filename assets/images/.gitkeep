@@ -1,0 +1,14 @@
+# Image Assets
+
+This directory contains image assets for the Bangladesh Landmarks application.
+
+Images placed here can be referenced in the code using:
+```dart
+Image.asset('assets/images/image_name.png')
+```
+
+## Recommended Images:
+- App icon variants
+- Bangladesh landmarks photos
+- Placeholder images
+- UI icons and illustrations
