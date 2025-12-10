@@ -1,0 +1,44 @@
+AUTHORSHIP REPORT
+=================
+
+Project: Bangladesh Landmarks App
+
+
+1. What was created by me
+-------------------------
+- All Dart source code for Flutter application, including:
+  - UI screens (`MainScreen`, `MapViewScreen`, `RecordsListScreen`, `NewEntryScreen`, `LandmarkDetailScreen`)
+  - Models (`Landmark`)
+  - State management (`LandmarkProvider` with Provider)
+  - Services (`ApiService`, `ImageService`, `LocationService`)
+  - Widgets (`LandmarkCard`, `LandmarkBottomSheet`)
+  - Routing, theming, and layout structure
+- Navigation, state management, and API integration logic
+- Custom image handling and resizing logic
+- Layout, theme, and design of the app
+- GitHub repository setup, commits, and project structure
+
+2. Tools used
+-------------
+- Flutter & Dart SDK
+- Visual Studio Code / Android Studio
+- Git & GitHub
+ - flutter_map and mapping libraries (with latlong2)
+- Provider package for state management
+- SharedPreferences for local persistence (no server-side DB code included in this repo)
+- Image package for image manipulation
+- ChatGPT for guidance, explanations, and suggestions
+
+3. AI-generated content modified by me
+--------------------------------------
+- Any code examples or suggestions provided by ChatGPT were **adapted and integrated** into the Flutter project
+- All AI-generated snippets were **tested, debugged, and customized** for this specific project
+- Commit history and project organization were **fully created by me**
+
+4. Implementation clarifications
+--------------------------------
+- The app integrates a remote REST API at `https://labs.anontech.info/cse489/t3/api.php`.
+- For web CORS constraints, requests are proxied via `https://corsproxy.io/` when required.
+- API requests use `application/x-www-form-urlencoded` and `lat`/`lon` fields; updates use HTTP `PUT` with `id` in the body.
+- DELETE uses query param `?id=` and is supported from web builds.
+- No server-side code is contained in this repository; only Flutter client implementation.
