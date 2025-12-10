@@ -1,6 +1,10 @@
-# Bangladesh Landmarks
+# 🇧🇩 Bangladesh Landmarks
 
 A comprehensive Flutter web application for managing and visualizing landmark records in Bangladesh. The app allows users to create, view, update, and delete landmarks with location data and images, all integrated with a REST API backend.
+
+[![Flutter](https://img.shields.io/badge/Flutter-3.0+-blue.svg)](https://flutter.dev/)
+[![License](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
+[![Platform](https://img.shields.io/badge/Platform-Web-orange.svg)](https://flutter.dev/web)
 
 
 
